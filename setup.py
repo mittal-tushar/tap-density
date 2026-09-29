@@ -3,13 +3,13 @@
 from setuptools import setup, find_packages
 
 setup(name='tap-density',
-      version='0.0.1',
+      version='0.0.2',
       description='Singer.io tap for extracting data from the Density.io API',
       author='sina@envoy.com',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_density'],
       install_requires=[
-        'tap-framework==0.1.0'
+        'tap-framework==0.1.1'
       ],
       entry_points='''
           [console_scripts]
